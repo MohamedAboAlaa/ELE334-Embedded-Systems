@@ -14,3 +14,11 @@ Embedded processor architecture and programming,I/O and device driver interfaces
 1. Build microcontroller/embedded systems <br>
 2. Program it using assembly / C languages <br>
 3. Techniques to interface to the real world
+
+## Getting Started
+
+To get started with the materials and examples provided in this repository, follow these steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone 
