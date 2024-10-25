@@ -21,4 +21,4 @@ To get started with the materials and examples provided in this repository, foll
 
 1. **Clone the Repository**
    ```bash
-   git clone 
+   git clone https://github.com/aboalaamo/ELE334-Embedded-Systems.git
