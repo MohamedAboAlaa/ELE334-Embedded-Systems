@@ -1,0 +1,44 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             CLZ_Code, CODE
+    2 00000000                 EXPORT           __main
+    3 00000000         
+    4 00000000         __main
+    5 00000000 F44F 2070       MOV              R0, #0x000F0000 ; load value to
+                                                             r0 reg
+    6 00000004 FAB0 F180       CLZ              R1, R0      ; count leading zer
+                                                            os in r0 reg and st
+                                                            ore result in r1 re
+                                                            g
+    7 00000008                 END
+Command Line: --debug --xref --cpu=Cortex-M4 --apcs=interwork --depend=.\test.d
+ -o.\test.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\In
+c\Luminary --predefine="__EVAL SETA 1" --list=.\test.lst test.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+CLZ_Code 00000000
+
+Symbol: CLZ_Code
+   Definitions
+      At line 1 in file test.s
+   Uses
+      None
+Comment: CLZ_Code unused
+__main 00000000
+
+Symbol: __main
+   Definitions
+      At line 4 in file test.s
+   Uses
+      At line 2 in file test.s
+Comment: __main used once
+2 symbols
+333 symbols in table

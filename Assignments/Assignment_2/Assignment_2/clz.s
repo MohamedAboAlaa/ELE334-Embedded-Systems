@@ -1,0 +1,6 @@
+	AREA CLZ_Code , CODE
+	EXPORT __main
+__main
+	MOV R1 , #0x00300000 ; 0b 0000 0000 0011
+	CLZ R3 , R1 ; R3 = 10 = 0x0000000A
+	END
